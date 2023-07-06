@@ -1,4 +1,2 @@
 #!/bin/bash
-echo $ls
-Applications    Documents   Dropbox Movies Pictures
-Desktop Downloads   Library Music Public
+echo $l
