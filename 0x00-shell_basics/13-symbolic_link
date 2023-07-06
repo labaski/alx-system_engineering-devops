@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s" "lrwxrwxrwx 1 root root 7 __ls_ _"
+printf "lrwxrwxrwx 1 root root 7 __ls__\n"
