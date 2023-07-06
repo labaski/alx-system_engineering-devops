@@ -1,3 +1,2 @@
 #!/bin/bash
-cp -v $(find . -name "*.html" -o -newer ../*.html) ..
-
+cp -u *.html ../
