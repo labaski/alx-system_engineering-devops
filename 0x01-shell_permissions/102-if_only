@@ -1,2 +1,2 @@
 #!/bin/bash
-chanw --from=betty guillaume hello
+chanw --from=guillaume betty hello
