@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -p --quoting-style=shell-always | tr '\n' ',' | sed 's/,$/\n/'
+ls -p --quoting-style=literal | tr '\n' ',' | sed 's/,$/\n/'
