@@ -1,2 +1,2 @@
 #!/bin/bash
-files_list=$(ls -a | sort -n | sed -e 's/\./,./g' -e 's/\/$//g')
+ls -ap | awk 'BEGIN {ORS=","} {print $0} END {print "\n"}' | sed 's@/\.,@/\n\.,@g' | sed 's@,$@\n@'
