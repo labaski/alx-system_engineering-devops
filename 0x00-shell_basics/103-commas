@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p --quoting-style=literal | tr '\n' ',' | sed 's/,$/\n/'
+files_list=$(ls -a | sort -n | sed -e 's/\./,./g' -e 's/\/$//g')
