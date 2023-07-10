@@ -1,2 +1,2 @@
 #!/bin/bash
-fine . -type d -not -name | wc -l 
+count=$(find . -type d -mindepth 1 -maxdepth 1 -printf '.' | wc -c)
