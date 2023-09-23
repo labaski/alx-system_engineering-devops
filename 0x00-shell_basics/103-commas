@@ -1,2 +1,2 @@
 #!/bin/bash
-list=$(ls -a); output=$(echo "$list" | tr '\n' ',' | sed 's/,/, /g'); echo "$output"
+ls -pamv
