@@ -1,1 +1,1 @@
-a project task on 0x0A-configuration_management
+ an 0x0A-configuration_management on shell
